@@ -1,0 +1,5 @@
+---
+# tasks file for ansible-osx-atom
+- name: download and unpack atom.zip
+  unarchive: src={{osx_atom_host}}/{{osx_atom_version}}/{{osx_atom_name}}.zip dest=/tmp/{{osx_atom_name}}_{{osx_atom_version}}.zip
+  when:

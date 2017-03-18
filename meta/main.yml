@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Rowan Carr
+  description: Ansible role to install Github atom
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: MacOSX
+    versions:
+      - 10.12
+  galaxy_tags:
+    - osx
+    - atom
