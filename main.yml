@@ -1,5 +1,0 @@
----
-# defaults file for ansible-osx-atom
-osx_atom_host: https://github.com/atom/atom/releases/download
-osx_atom_version: v1.15.0
-osx_atom_name: atom-mac
