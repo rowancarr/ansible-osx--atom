@@ -2,7 +2,7 @@
 # tasks file for ansible-osx-atom
 - name: download and unpack atom.zip
   unarchive:
-    src: {{osx_atom_host}}/{{osx_atom_version}}/{{osx_atom_name}}.zip
+    src: "{{osx_atom_host}}/{{osx_atom_version}}/{{osx_atom_name}}.zip"
     dest: /Applications
     remote_src: True
     creates: /Applications/Atom.app
