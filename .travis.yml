@@ -6,11 +6,8 @@ language: objective-c
 osx_image: xcode8.3
 
 install:
-  # Install pip.
-  - sudo easy_install pip
-
   # Install Ansible.
-  - sudo pip install ansible
+  - sudo curl -s https://bootstrap.pypa.io/get-pip.py | python - ansible
 
   # Add ansible.cfg to pick up roles path.
   - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
